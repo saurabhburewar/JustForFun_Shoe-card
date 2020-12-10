@@ -1,6 +1,6 @@
 # JustForFun-Shoe-card
 
-A small project for fun and practise.
+A small project for fun and practise.  
 Check it out - https://saurabhburewar.github.io/JustForFun-Shoe-card/
 
 ## Resources
