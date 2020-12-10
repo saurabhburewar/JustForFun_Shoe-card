@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introtext {
+  color: rgb(223, 223, 223);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+}
+.hide {
+  background: black;
+  overflow: hidden;
+}
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.landing {
+  font-family: "Poppins", sans-serif;
+  background-image: url("./glass.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.card {
+  position: relative;
+  width: 23%;
+  height: 70%;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to top left,
+    rgb(255, 255, 255),
+    rgb(221, 221, 221)
+  );
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  position: absolute;
+  left: 27.5%;
+  top: 7%;
+  width: 45%;
+  height: 27.5%;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 20px 10px rgb(0, 0, 0);
+  overflow: hidden;
+}
+.circlein {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgb(253, 137, 60),
+    rgb(63, 63, 252)
+  );
+  z-index: 1;
+}
+
+.shoe,
+canvas {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 40%;
+  z-index: 2;
+}
+
+.head {
+  float: left;
+  padding: 5% 9%;
+  font-weight: bold;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.head:hover {
+  cursor: default;
+}
+.description {
+  float: left;
+  padding: 5% 9%;
+  font-size: 10px;
+  font-weight: bold;
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.5s;
+}
+.description:hover {
+  cursor: default;
+}
+.color {
+  float: left;
+  padding: 5% 9%;
+  width: 80%;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+.color:hover {
+  cursor: default;
+}
+.sizes {
+  float: left;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+.size {
+  float: left;
+  width: 13%;
+  border-radius: 10px;
+  border: none;
+  margin-left: 9.6%;
+  padding: 1%;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+}
+.size:hover {
+  cursor: pointer;
+  background: #313131;
+  color: white;
+}
+.size:focus {
+  outline: none;
+}
+.purchase {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buybut {
+  width: 82%;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 2%;
+  border: none;
+  background: rgb(230, 122, 50);
+  transition-duration: 0.5s;
+}
+.buybut:hover {
+  cursor: pointer;
+  background: rgb(253, 137, 60);
+}
+.buybut:focus {
+  outline: none;
+}
