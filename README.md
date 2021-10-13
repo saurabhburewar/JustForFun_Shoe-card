@@ -1,7 +1,7 @@
 # JustForFun-Shoe-card
 
 A small project for fun and practise.  
-Check it out - https://saurabhburewar.github.io/JustForFun-Shoe-card/
+Check it out - https://saurabhburewar.github.io/JustForFun_Shoe-card/
 
 ## Resources
 - Three.js (Visit [here](https://threejs.org/))
